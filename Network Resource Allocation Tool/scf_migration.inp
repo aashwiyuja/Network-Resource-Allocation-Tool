@@ -1,0 +1,16 @@
+p min 4 8
+c min-cost flow problem with 4 nodes and 8 arcs 
+n 2 4
+c supply of 4  at nodes 2 
+n 4 -4
+c demand of 4 at node 4
+c arc list follows 
+c arc has  <tail> <head> <capacity l.b.> <capacity u.b> <cost>
+a 2 4 0 7 2 
+a 3 6 0 9 3 
+a 1 4 0 7 6 
+a 2 4 0 6 9 
+a 3 5 0 7 1 
+a 3 5 0 9 8 
+a 3 5 0 8 4 
+a 1 4 0 6 4 
